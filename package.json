@@ -1,0 +1,32 @@
+{
+  "name": "bookapi",
+  "version": "1.0.0",
+  "description": "Api built with node js and express js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "lint": "eslint --fix --config .eslintrc.json \"**/*.js\""
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.0",
+    "express-validator": "^6.2.0",
+    "mongoose": "^5.7.6",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aabhinavjs/bookstoreapi.git"
+  },
+  "author": "Abhinav Anand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aabhinavjs/bookstoreapi/issues"
+  },
+  "homepage": "https://github.com/aabhinavjs/bookstoreapi#readme"
+}
